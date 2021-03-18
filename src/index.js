@@ -36,10 +36,8 @@ app.get('/', requireAuth, (req, res) => {
   res.send(`Your email : ${req.user.email}`)
 })
 
-app.listen(process.env.PORT || 3000, () => {
-  console.log(
-    'Express server listening on port %d in %s mode',
-    this.address().port,
-    app.settings.env
-  )
+const PORT = process.env.PORT || 3000
+
+app.listen(PORT, () => {
+  console.log(`Server is listening on port ${PORT}`)
 })

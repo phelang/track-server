@@ -20,26 +20,27 @@ npm run start
 
 2. SignUp 
 
-   ```bash
+```bash
   /signup
-  ```
+```
 
 3. Delete Account   
   
-  ```bash
+```bash
   /deleteaccount
-  ```
+```
 
 5. Create Tracks 
-  ```bash
+  
+```bash
   /tracks 
-  ```
+```
 
 5. Delete Tracks 
 
-  ```bash
+```bash
   /tracks/delete
-  ```
+```
 ## URL
 
 

@@ -25,7 +25,8 @@ npm run start
   ```
 
 3. Delete Account   
-   ```bash
+  
+  ```bash
   /deleteaccount
   ```
 
